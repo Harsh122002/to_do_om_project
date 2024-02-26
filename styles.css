@@ -1,0 +1,109 @@
+body {
+     
+     padding: 20px;
+     /* background: #ffffff url(/om_project/om.webp) center center/cover no-repeat; */
+     /* background: rgb(238,174,202);
+     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,181,233,1) 100%); */
+     color: white; /* Sets the text color to white */
+
+      background: #ffffff url('/om_project/om.webp') center center/cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Optional: Keeps the background fixed when scrolling */
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+   
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  color: #ffffff;
+    background-color: #6c60a9; /* Change background color on hover */
+}
+
+  .form-control {
+    background-color: transparent; /* Sets the background color of the text box to transparent */
+    border: none; /* Removes border */
+    border-bottom: 1px solid white; /* Adds a bottom border */
+    color: white; /* Sets the text color to white */
+}
+
+.form-control:focus {
+    box-shadow: none; /* Removes focus box-shadow */
+}
+
+  
+   
+  
+
+   .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sort-links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .sort-links a.active {
+    font-weight: bold;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .sorting-options {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.sorting-options a {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between sorting options */
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Add transition for smooth effect */
+}
+
+.sorting-options a:hover {
+ 
+    color: rgb(177, 74, 76); /* Change background color on hover */
+}
+
+.sorting-options a:last-child {
+  
+    margin-right: 0; /* Remove margin from the last sorting option */
+}
+
+  
+  .todo-list li {
+    margin-bottom: 10px;
+  }
+  .todo-table {
+    margin-top: 30px;
+    border: #ffffff solid 3px;
+    border-radius: 5px;
+    border-collapse: collapse; /* Merge borders between cells */
+    width: 100%; /* Set table width to 100% of its container */
+}
+
+.todo-table th, .todo-table td {
+    padding: 10px; /* Add padding to cells */
+    border: #ffffff solid 1px; /* Add border to cells */
+}
+
+.todo-table th {
+    background-color: #f0f0f0; /* Set background color for table header */
+    color: #333; /* Set text color for table header */
+}
+
+  
+   
