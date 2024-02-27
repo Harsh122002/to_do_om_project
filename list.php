@@ -59,5 +59,7 @@
     </table>
     <a href="index.php" class="back-button">Back</a> 
   </div>
+  <!-- Bootstrap JS (Optional, if needed) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
